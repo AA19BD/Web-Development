@@ -1,0 +1,17 @@
+#first{
+    color: blue;
+}
+.main-class{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+    font-weight: lighter;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 25px;
+    
+}
+.font{
+    color:blue
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form action="Supply.html" ><!--We need a <form> to save data somewhere,"action" ->all data 
+            is saved in "Supply.html",in <label we need "for" 
+            attribute for specify input(без него мы не сможем нажать 
+            на имя ,для чего и нужно было и наш Id)-->
+            <label for="user">Name</label>
+            <input autocomplete="off" 
+            maxlength="8" name="name" type="text" id="user" placeholder="Name">
+            <label for="surname">Surname</label>
+            <input  minlength="4" name="surname" type="text"  id="surname" placeholder="Surname">
+            <label for="email">Email</label>
+            <input  name="email" type="email" id="email" placeholder="Your product">
+            <select name="products" id="product">
+                <option value="iphone 11">Tech</option>
+                <option value="yellow t-shirt">Shirt</option>
+                <option value="ben10">Toy</option>
+            </select><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            <button type="submit">Supply</button><!--type=submit needs for save all of that -->
+        </form>
+    
+    </body>
+</html>

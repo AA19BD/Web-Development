@@ -1,0 +1,30 @@
+#id-1{
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding: 0px 1px 0px  100px;
+    box-shadow: 3px 3px 3px blue;
+}
+.class1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.class2{
+    width: 100px;
+
+}
+[href]{
+    color:aqua
+}
+/* *{
+    background-color:azure;
+} */
+input:checked{
+    box-shadow:2px 2px 2px grey;
+}
+.class1:hover{
+    background-color:grey;
+}
