@@ -1,0 +1,26 @@
+<style>
+    #searchbar {
+      position:absolute;
+      top:50px;
+      right:50px;
+  
+    }
+    section{
+      position:relative;
+    }
+   /*Если не было элемента <section> то с позиции абсолют,
+    наш searchbar ориентировался бы с начало страницы(0,0)б,так как у нас есть предок с позиции relative,
+    то #searchbar будет ориентироаваться с позиции section
+    The next option for the CSS position property is absolute, 
+    which locks the element in place relative to its parent container */
+  </style>
+  <body>
+    <h1>Welcome!</h1>
+    <section>
+      <form id="searchbar">
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+        <input type="submit" name="submit" value="Go!">
+      </form>
+    </section>
+  </body>
